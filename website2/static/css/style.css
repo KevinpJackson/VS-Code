@@ -1,0 +1,8 @@
+body {
+    background-image: url('../images/myimage.jpg');  /* Path to your image */
+    background-size: cover;   /* Ensures it covers the full screen */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    height: 100vh;  /* Full viewport height */
+    margin: 0;
+  }

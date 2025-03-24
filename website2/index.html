@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Static Website</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <h1>Welcome to the decider website!</h1>
+    <p>This site is perfect for making decisions you ponder about!</p>
+<br />
+    <h2>How it works?</h2>
+    <p>Type a question, click the button and the website will decide for you!</p>
+<br />
+    <form action="/" method="post">
+        <input type="text" name="question" placeholder="Type your question here" required>
+        <button type="submit">Decide for me</button>
+    </form>
+<br />
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+{% if user_input %}
+    <p>{{ decision }}</p>
+{% else %}
+    <p>Please type somehing first.</p>
+{% endif %}
+
+</body>
+</html>

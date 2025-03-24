@@ -29,7 +29,7 @@ def create_app():
                     "Ugh, no.",
                     "Yeah do whatever :P",
                     "No idea, but you look kinda cute :3",
-                    "In a forever growing universe filled with millions of planets and possible life forms, does this really matter?"
+                    "In a forever growing universe filled with millions of planets and possible life forms, does this really matter?",
                     "I don't wanna answer that.",
                     "Yes definitely. (Maybe)",
                 ]
